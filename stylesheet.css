@@ -1,0 +1,148 @@
+ul.nav {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0 auto;
+
+}
+
+li.nav {
+    display: inline-block;
+    font-family: 'Philosopher', sans-serif;
+    text-decoration: none;
+    background-color: #C5C5C5;
+    font-size: 25px
+}
+
+.horiz {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+p.intro {
+  font-size: 30px;
+}
+
+body {
+    text-align: center;
+    background-color: #FFDAE0;
+    font-family: "Philosopher", sans-serif;
+    font-size: 40px;
+    color: #585858;
+    background: linear-gradient(#FFDAE0, #ce66f2);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color: #585858;
+    font-size: 80px;
+}
+
+h2 {
+  font-size: 50px;
+  color: #5a5a5a;
+  margin-bottom: 10px;
+}
+
+li.sport {
+  font-size: 25px;
+  text-align: center;
+  display: inline;
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Lobster Two", cursive;
+}
+
+.vert {
+  text-decoration: none;
+  color: #735890;
+  padding: 14px 16px;
+  margin: 0px;
+  padding: 5px;
+}
+
+ul.sports {
+  list-style-type:none
+  margin: 0;
+  padding: 0;
+  background-color: #C5C5C5;
+}
+
+li.active {
+  background-color: #735890;
+  display: inline-block;
+  font-family: 'Philosopher', sans-serif;
+  text-decoration: none;
+  font-size: 25px
+}
+
+a.active {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+
+thead {
+  margin: auto;
+}
+
+th {
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+td {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+tr {
+  background-color: #C5C5C5;
+}
+
+tr.fav {
+  background-color: #735890;
+}
+
+tr.fnf {
+  background-color: #FFDAE0;
+}
+
+td.fnf {
+  color: #939CA6;
+}
+
+thead.fam, tr.fnf, td.fnf {
+  border: solid 1px #735890;
+}
+
+h1.me {
+  text-shadow: 0 1px 0 #ccc,
+              0 2px 0 #c9c9c9,
+              0 3px 0 #bbb,
+              0 4px 0 #b9b9b9,
+              0 5px 0 #aaa,
+              0 6px 1px rgba(0,0,0,.1),
+              0 0 5px rgba(0,0,0,.1),
+              0 1px 3px rgba(0,0,0,.3),
+              0 3px 5px rgba(0,0,0,.2),
+              0 5px 10px rgba(0,0,0,.25),
+              0 10px 10px rgba(0,0,0,.2),
+              0 20px 20px rgba(0,0,0,.15);
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
